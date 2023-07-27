@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Barlow Condensed", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+/* rhs_base */
+
+.rhs-base,
+.rhs-base * {
+    box-sizing: border-box;
+}
+
+.rhs-base {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* rhs_base ends */
+
+/* logo hypnotik */
+
+.logo-hynotic-1,
+.logo-hynotic-1 * {
+    box-sizing: border-box;
+}
+
+.logo-hynotic-1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 318px;
+    height: 57px;
+    position: relative;
+    overflow: hidden;
+}
+
+.layer-1 {
+    position: relative;
+    inset: 0;
+}
+
+.group {
+    position: relative;
+    left: 8.91px;
+    top: 14.45px;
+    overflow: visible;
+}
+
+/* logo hypnotik ends */
+
+/* backbtn */
+
+.back-btn,
+.back-btn * {
+    box-sizing: border-box;
+}
+
+.back-btn {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 6vh;
+    left: 4vh;
+    overflow: hidden;
+}
+
+.group-1 {
+    position: relative;
+    left: 8.5px;
+    top: 14.5px;
+    overflow: visible;
+}
+
+/* backbtn ends */
+
+/* form start */
+
+.form-box {
+    width: 30vw;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+}
+
+/* topic and description */
+
+.wifisetup,
+.connectnetwork {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wifisetup {
+    color: #4b9dc9;
+    text-align: left;
+    font-size: 26px;
+}
+
+.connectnetwork {
+    color: #ffffff;
+    text-align: left;
+    font-size: 22px;
+}
+
+/* topic and description ends */
+
+/* scanbtn */
+
+.scanbtn {
+    background: #000000;
+    border-radius: 29px;
+    border: 1px solid #5c5c5c;
+    padding: 15px 10px 15px 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 15vw;
+    margin: 2vh auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2vh;
+}
+
+/* scanbtn ends */
+
+/* form group and field */
+
+/* dropdown */
+
+.select-network {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.select-network .select-btn {
+    display: flex;
+    background: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.sBtn-text {
+    flex: 1;
+}
+
+.select-btn i {
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.select-network.active .select-btn i {
+    transform: rotate(-180deg);
+}
+
+.select-network .options {
+    position: relative;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #000000;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    display: none;
+    border: 1px solid #5c5c5c;
+}
+
+.select-network.active .options {
+    display: block;
+}
+
+.options .option {
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    align-items: center;
+    border-bottom: 1px solid #909090;
+}
+
+.options .option:last-child {
+    border-bottom: none;
+}
+
+.options .option:hover {
+    border-radius: 8px;
+    background: #909090;
+}
+
+.option i {
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.option .option-text {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* dropdown ends */
+
+
+
+.input-field,
+.input-staticip,
+.input-staticgateway,
+.input-mDNS {
+    margin-bottom: 1vh;
+}
+
+.input-field label {
+    display: block;
+    font-size: 16px;
+    color: #909090;
+}
+
+.input-field input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #909090;
+    background-color: transparent;
+    color: #909090;
+    font-size: 20px;
+}
+
+p,
+.upper {
+    font-size: 16px;
+    color: #909090;
+    margin-left: 2vh;
+    margin-top: 1vh;
+}
+
+/* for staticip */
+
+.input-staticip label {
+    display: block;
+    font-size: 16px;
+    color: #909090;
+}
+
+.staticip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staticip input {
+    width: 20%;
+    padding: 0.5vh;
+    border: none;
+    border-bottom: 1px solid #909090;
+    background-color: transparent;
+    color: #909090;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lower {
+    font-size: 16px;
+    color: #909090;
+    text-align: right;
+    margin: 0;
+    margin-top: 1vh;
+}
+
+/* staticip ends */
+
+/* for staticgateway */
+
+.input-staticgateway label {
+    display: block;
+    font-size: 16px;
+    color: #909090;
+}
+
+.staticgateway {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staticgateway input {
+    width: 20%;
+    padding: 0.5vh;
+    border: none;
+    border-bottom: 1px solid #909090;
+    background-color: transparent;
+    color: #909090;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* staticgateway ends */
+
+/* for mDNS */
+
+.input-mDNS label {
+    display: block;
+    font-size: 16px;
+    color: #909090;
+}
+
+.mDNS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mDNS input {
+    width: 60%;
+    padding: 0.5vh;
+    border: none;
+    border-bottom: 1px solid #909090;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* mDNS ends */
+
+/* removeing increase and decrease button for input type=number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* form group and field ends */
+
+/* form ends */
+
+/* connectbtn */
+
+.connectbtn {
+    background: #ffffff;
+    border: none;
+    border-radius: 29px;
+    padding: 15px 10px 15px 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 178px;
+    margin-top: 3vh;
+    color: #000000;
+    text-align: center;
+    font-size: 2vh;
+}
+
+/* connectbtn ends */

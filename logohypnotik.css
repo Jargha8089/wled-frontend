@@ -1,0 +1,18 @@
+.logo-hynotic-1,
+.logo-hynotic-1 * {
+    box-sizing: border-box;
+}
+
+.logo-hynotic-1 {
+    width: 596px;
+    height: 107px;
+    overflow: hidden;
+}
+
+.layer-1 {
+    inset: 0;
+}
+
+.group {
+    overflow: visible;
+}
