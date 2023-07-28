@@ -152,12 +152,12 @@ body {
     background: #000000;
     font-size: 18px;
     font-weight: 400;
-    border-radius: 8px;
     align-items: center;
     cursor: pointer;
     justify-content: space-between;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     color: #fff;
+    border-bottom: 1px solid #909090;
 }
 
 .sBtn-text {
