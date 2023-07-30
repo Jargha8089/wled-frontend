@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Barlow Condensed", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+/* rhs_base */
+
+.rhs-base,
+.rhs-base * {
+    box-sizing: border-box;
+}
+
+.rhs-base {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* rhs_base ends */
+
+/* info */
+
+.info {
+    width: 50%;
+    margin: 0 auto;
+    background: transparent;
+    color: #ffffff;
+    padding: 2vw;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5vh;
+    color: #4C9DC9;
+}
+
+/* btns */
+
+.btns {
+    margin-bottom: 3vh;
+}
+
+.btns .btn {
+    background: #2C2C2C;
+    border: none;
+    border-radius: 29px;
+    padding: 15px 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2vh;
+    margin-bottom: 1.3vh;
+}
+
+/* btns ends*/
+
+/* backbtn */
+
+.backbtn {
+    background: #000000;
+    border: 1px solid #5c5c5c;
+    border-radius: 29px;
+    padding: 15px 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 15vw;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2vh;
+}
+
+/* backbtn ends */
